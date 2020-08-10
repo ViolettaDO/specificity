@@ -1,0 +1,42 @@
+body{
+    font-size: 9px;
+    border: 1px solid red;
+}
+h1{
+    border: inherit;
+}
+p{
+    border: inherit;
+}
+.p-initial {
+    border: initial;
+}
+h2{
+    display: unset;
+}
+
+
+/*    2   3     */
+#pagewrapper.content{
+    color: red;
+}
+/*    1     */
+.content{
+    color: blue;
+    font-size: 15px;
+}
+
+#pagewrapper{
+    font-size: 30px;
+}
+
+#pagewrapper .content{
+    background-color: yellow !important;
+}
+#pagewrapper > .content{
+    background-color: red;
+
+}
+div:not(.content) > p {
+    font-style: italic;
+}

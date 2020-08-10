@@ -1,0 +1,121 @@
+ /*1
+         .parent1{
+            font-size: 50px;
+            border-bottom: 1px solid #000;
+            padding-bottom: 50px;
+            color: red;
+            background:yellow;
+        }
+        .parent2{
+            font-size: 30px;
+            border-bottom: 1px solid #000;
+            padding-bottom: 50px;
+        }
+        p{
+            border: inherit;
+        }*/        
+        
+        /*2     
+        .child1{
+            color: red;
+        }
+        .class2{
+            color: green;
+        }
+         */  
+        
+        /*3
+        .parent1 .child1{
+            color: red;
+        }
+        .child1{
+            color: green;
+        }*/
+
+        /*4
+        #child1{
+            color: green;
+        }
+        .child1{
+            color: red;
+        }
+        [id="parent1"]{
+            color: red;
+        }*/
+
+        /*5
+        #child1,#child2{
+            color: green;
+            }
+        .child1{
+            color:red!important
+        
+        }
+        #parent2 .child1{
+            color: red;
+        }
+        #child1, #child2{
+            color: green;
+        }*/
+
+        /*6*/ 
+        .text{
+            font-size: 20px;
+            line-height: 1.5;
+            border-bottom: 1px solid;
+            color: green;
+        }
+        .parent2 .text{
+            color: red;
+        }
+        .parent1 .parent2 .text{
+            color: blue;
+        }
+
+        /*7*/        
+        .info__header{
+            font-size: 20px;
+            line-height: 1.5;
+            border-bottom: 1px solid;
+            color: green;
+        }
+        .info__header_red{
+            color: red;
+            }
+            
+        /*8*/ 
+        .info{
+            padding: 15px;
+            border: 1px solid #000;
+            margin-bottom:50px;
+        } 
+        .info__text{
+            font-size:15px;
+            line-height: 1.5;
+        }
+        .header{
+            border-bottom: 1px solid;
+        }  
+         .header__title{
+            font-size: 30px;
+            
+            text-align: center;
+            font-weight: 700;
+            line-height: 1.5;
+            color: green;
+        }
+        .header__title_news{
+            font-style: italic;
+        }
+        .header__subtitle{
+            font-size: 20px;
+            text-align: center;
+        } 
+        .block1{
+            height: 200px;
+            width: 300px;
+            background: royalblue;
+            padding: 30px;
+            border: 10px solid #eee;
+            box-sizing: border-box;
+        }
